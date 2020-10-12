@@ -2,20 +2,20 @@
 
 ## Краткое описание
 
-В IDE IntelliJ IDEA на Java был написан код, реализующий работу приложения.
+В IDE IntelliJ IDEA на Java был написан код, реализующий работу приложения:
 
-'''java
 
-public class Main {
-    public static void main (String[]args) {
-        int balance = 2_000_000_000;
-        int transfer = 500_000_000;
-        int total = balance + transfer;
-        System.out.println(total);
-    }
-}
 
-'''
+'public class Main {'
+    'public static void main (String[]args) {'
+        'int balance = 2_000_000_000;'
+        'int transfer = 500_000_000;'
+        'int total = balance + transfer;'
+        'System.out.println(total);'
+    '}'
+'}'
+
+
 
 Далее было проведено его функциональное тестирование, в ходе которого было выявлено несоответствие ожидаемого результата фактическому.  
 
