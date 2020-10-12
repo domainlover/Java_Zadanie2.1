@@ -4,8 +4,7 @@
 
 В IDE IntelliJ IDEA на Java был написан код, реализующий работу приложения.
 
-'''Java
-
+'''
 public class Main {
     public static void main (String[]args) {
         int balance = 2_000_000_000;
@@ -14,7 +13,6 @@ public class Main {
         System.out.println(total);
     }
 }
- 
 '''
 
 Далее было проведено его функциональное тестирование, в ходе которого было выявлено несоответствие ожидаемого результата фактическому.  
